@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-sm-2">
+            <h1 class="text-center">Editar denuncia</h1>
+
+            <%= render 'form', denuncium: @denuncium %>
+        
+            <%= link_to 'Ver', @denuncium, class:'btn btn-info' %> 
+            <%= link_to 'Volver', denuncia_path, class:'btn btn-primary' %>
+        </div>
+    </div>
+</div>
+    

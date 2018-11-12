@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_ruta: 1
+  nombre: MyString
+  dni: MyString
+  email: MyString
+  telefono: MyString
+  comentario: MyText
+  fecha: 2018-11-12 14:02:08
+
+two:
+  id_ruta: 1
+  nombre: MyString
+  dni: MyString
+  email: MyString
+  telefono: MyString
+  comentario: MyText
+  fecha: 2018-11-12 14:02:08

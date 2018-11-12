@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-sm-3">
+      <p id="notice"><%= notice %></p>
+
+      <p>
+        <strong>Ruta:</strong>
+        <%= @denuncium.id_ruta %>
+      </p>
+      
+      <p>
+        <strong>Nombre:</strong>
+        <%= @denuncium.nombre %>
+      </p>
+      
+      <p>
+        <strong>Dni:</strong>
+        <%= @denuncium.dni %>
+      </p>
+      
+      <p>
+        <strong>Email:</strong>
+        <%= @denuncium.email %>
+      </p>
+      
+      <p>
+        <strong>Telefono:</strong>
+        <%= @denuncium.telefono %>
+      </p>
+      
+      <p>
+        <strong>Comentario:</strong>
+        <%= @denuncium.comentario %>
+      </p>
+      
+      <p>
+        <strong>Fecha:</strong>
+        <%= @denuncium.fecha %>
+      </p>
+      
+      <%= link_to 'Editar', edit_denuncium_path(@denuncium), class:'btn btn-info' %> 
+      <%= link_to 'volver', denuncia_path, class:'btn btn-primary' %>
+    </div>
+  </div>
+</div>

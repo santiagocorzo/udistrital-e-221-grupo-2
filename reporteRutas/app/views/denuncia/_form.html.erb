@@ -1,0 +1,53 @@
+<%= form_with(model: denuncium, local: true) do |form| %>
+  <% if denuncium.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(denuncium.errors.count, "error") %> prohibited this denuncium from being saved:</h2>
+
+      <ul>
+      <% denuncium.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= form.label :Ruta %>
+
+    <%= form.select :id_ruta,['544B','T25','18-3','781'],:prompt => 'Seleccione' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :nombre %>
+    <%= form.text_field :nombre, class:'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :dni %>
+    <%= form.text_field :dni, class:'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :email %>
+    <%= form.text_field :email, class:'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :telefono %>
+    <%= form.text_field :telefono, class:'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :comentario %>
+    <%= form.text_area :comentario, class:'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :fecha %>
+    <%= form.datetime_select :fecha, class:'form-control disabled'%>
+  </div>
+
+  <div class="actions">
+    <%= form.submit 'Enviar',class:'btn btn-success' %>
+  </div>
+<% end %>
