@@ -26,11 +26,12 @@ development:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  host: ec2-23-23-153-145.compute-1.amazonaws.com
-  username: juvtkzenrijkgb
-  password: edc904244ca1db0622030bf0457af5f48eead3c298e8cac6a33a9d7228d2701f
-  database: de32gl6ljdgn5h
-  url: postgres://juvtkzenrijkgb:edc904244ca1db0622030bf0457af5f48eead3c298e8cac6a33a9d7228d2701f@ec2-23-23-153-145.compute-1.amazonaws.com:5432/de32gl6ljdgn5h
+  host: localhost
+  username: gpiaisvxjaofhl
+  password: eea61d3f5c861d126d6c24f1812565cfac2ffc478fa0683dbabc4836dad5c018
+  database: dbjhf6siovj9mj
+  url: postgres://gpiaisvxjaofhl:eea61d3f5c861d126d6c24f1812565cfac2ffc478fa0683dbabc4836dad5c018@ec2-54-221-225-11.compute-1.amazonaws.com:5432/dbjhf6siovj9mj
+
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is

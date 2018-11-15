@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# reporte rutas
+
+>>>>>>> da28519d12bd5e6d7de2ff5d70a7701a40c6aa9d
